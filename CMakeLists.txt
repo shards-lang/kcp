@@ -2,9 +2,6 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8.12)
 
 project(kcp LANGUAGES C)
 
-include(CTest)
-include(GNUInstallDirs)
-
 cmake_policy(SET CMP0054 NEW)
 
 if(BUILD_SHARED_LIBS AND WIN32)
